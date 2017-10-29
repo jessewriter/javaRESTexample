@@ -7,7 +7,7 @@ make sure your tomcat server is pointed to port 8082
 List of CityDistances objects
 http://localhost:8082/DistanceREST/rest/distances
 
-Show me a list of distances less than {x}
+Show me a list of distances less than {x} x is an integer representing miles
 http://localhost:8082/DistanceREST/rest/distances/x
 
 Update a distance with PUT
